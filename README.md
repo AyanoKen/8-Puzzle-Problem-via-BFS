@@ -12,6 +12,7 @@ Move blank tile right
 For example:
 
 Initial State:
+
 4 8 7
 
 1 3 5
@@ -19,6 +20,7 @@ Initial State:
 6   2
 
 Final State:
+
 1 2 3 
 
 4 5 6

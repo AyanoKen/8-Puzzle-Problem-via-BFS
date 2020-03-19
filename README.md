@@ -13,12 +13,16 @@ For example:
 
 Initial State:
 4 8 7
+
 1 3 5
+
 6   2
 
 Final State:
 1 2 3 
-4 5 6 
+
+4 5 6
+
 7 8 
 
 Used Method: State Space Search.
@@ -39,7 +43,11 @@ Once the goal state is found, using the back pointer (Object variable "parent"),
 
 Note:
 1.Any Contribution is appretiated.
+
 2.Download the three files (Board, Main, Queue) and run the Main file to test the program
+
 3.The algorithm works only when the state tree is small. ie, it fails when the puzzle is changed a lot but you can increase the size of the queue to make it work for more puzzles.
+
 4.This algorithm is to show that BFS is "Not" suitable for State Space Search Problems.
+
 5.This is my first time hosting in github. So, please dont hate me for my bad code :)
